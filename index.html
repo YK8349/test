@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ケツの穴から手ぇ突っ込んで奥歯ガタガタ言わせたろかいジェネレーター</title>
+</head>
+<body>
+    <h1>ケツの穴から手ぇ突っ込んで奥歯ガタガタ言わせたろかいジェネレーター</h1>
+    <button type="button" name="btn" onclick="gene()">生成</button>
+    <h2 id="result"></h2>
+    <script>
+        let res = document.getElementById("result");
+        function gene(){
+            const word =["ケツ","の穴","から","手","突っ込んで","奥歯","ガタガタ","言わせ","たろかい"];
+            let sentence = "";
+            for(i=0;i<word.length;i++){
+            let x = Math.floor(Math.random()*word.length);
+            sentence = sentence + word[x];
+            }
+            res.innerHTML = sentence;
+        }
+        
+    </script>
+</body>
+</html>
