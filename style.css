@@ -23,5 +23,7 @@ body{
     font-size: 20pt;
 }
 #result{
+    font-size: 25pt;
+    text-align: center;
     background-color: lightgrey;
 }
