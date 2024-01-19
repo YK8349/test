@@ -1,1 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-wrap:break-word;
+}
+#title{
+    font-size: 30pt;
+    margin: auto;
+    text-align: center;
+    
+}
+#btn{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #68779a;
+    background-color: antiquewhite;
+    cursor: pointer;
+    font-size: 20pt;
+}
