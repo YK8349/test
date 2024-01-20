@@ -4,26 +4,81 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     overflow-wrap:break-word;
 }
-#title{
-    font-size: 30pt;
-    margin: auto;
+.bg{
+    background-image:url("FH01E0002.JPG");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width:100%;
+    height: 100vh;
+    padding: 60px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.glass {
+    width: 100%;
+    max-width: 600px;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.1); /* 背景色 */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* ボーダー */
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(10px); /* ぼかしエフェクト */
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(174, 174, 174, 0.626); /* 薄い影 */
+}
+.glass div {
     text-align: center;
-    
+    color: black;
+    font-size: 30pt;
+    letter-spacing: 0.06em;
+    font-family: 'Noto Sans JP', sans-serif;
+    overflow-wrap:break-word;
+    font-style: normal;
+  }
+.glass p {
+  text-align: center;
+  color: black;
+  font-size: 30pt;
+  letter-spacing: 0.06em;
+}
+.glass button {
+    text-align: center;
+    color: black;
+    font-size: 30pt;
+    letter-spacing: 0.06em;
 }
 #btn{
     display: block;
+    color: rgb(0, 0, 0);
+    font-size: 35pt;
     margin: auto;
     text-align: center;
     width: 30%;
     box-sizing: border-box;
     padding: 10px;
-    border: 1px solid #68779a;
-    background-color: antiquewhite;
+    background-color: rgba(255, 255, 255, 0.1); /* 背景色 */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* ボーダー */
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(40px); /* ぼかしエフェクト */
+    backdrop-filter: blur(40px);
     cursor: pointer;
     font-size: 20pt;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(174, 174, 174, 0.626); /* 薄い影 */
 }
 #result{
     font-size: 25pt;
     text-align: center;
-    background-color: lightgrey;
+    background-color: rgba(255, 255, 255, 0.249); /* 背景色 */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* ボーダー */
+    border-right-color: rgba(255, 255, 255, 0.2);
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+    -webkit-backdrop-filter: blur(40px); /* ぼかしエフェクト */
+    backdrop-filter: blur(40px);
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(174, 174, 174, 0.626); /* 薄い影 */
 }
