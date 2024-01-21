@@ -54,11 +54,11 @@ body{
     display: block;
     color: rgb(0, 0, 0);
     font-size: 35pt;
-    /*margin: 30%;*/
+    margin: 30%;
     text-align: center;
-    /*width: 30%;*/
+    width: 30%;
     box-sizing: border-box;
-    /*padding: 10px;*/
+    padding: 10px;
     background-color: rgba(255, 255, 255, 0.1); /* 背景色 */
     border: 1px solid rgba(255, 255, 255, 0.4); /* ボーダー */
     border-right-color: rgba(255, 255, 255, 0.2);
